@@ -28,8 +28,8 @@ object PureFunctionsReduceZip{
         println("Partition: "+empList.partition(_ > 10))
 
         //groupBy
-        val empListgroupby = List(15, 10, 5, 8, 20, 12)
-        val empGroup = empListgroupby.groupBy(_ > 10)
+        val empListgroupby = List(15, 10, 10,10,10,5, 8, 20, 12)
+        val empGroup = empListgroupby.groupBy(_ >=10)
 
         println(empGroup)
         println(empGroup (true))
