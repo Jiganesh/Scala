@@ -11,3 +11,6 @@ in <project> right click on project and make add scala project
 New --> Package
 
 Delete this
+
+
+/user/manju_trng/SparkLiftAndShiftDataset
